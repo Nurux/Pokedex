@@ -1,84 +1,84 @@
 .pokemons .grass {
-    background: url('./assets/imgs/grass.jpg');
+    background: url('../imgs/grass.jpg');
     background-size: cover;
 }  
 
 .pokemons .bug {
-    background: url('./assets/imgs/bug.jpeg');
+    background: url('../imgs/bug.jpeg');
     background-size:auto;
 }
 
 .pokemons .fire {
-    background: url('./assets/imgs/fire.jpeg');
+    background: url('../imgs/fire.jpeg');
     background-size: cover;
 }
 
 .pokemons .water {
-    background: url('./assets/imgs/water.jpeg');
+    background: url('../imgs/water.jpeg');
     background-size: cover;
 }
 
 .pokemons .normal {
-    background: url('/assets/imgs/normal.jpeg');
+    background: url('../imgs/normal.jpeg');
     background-size: cover;
 }
 
 .pokemons .electric {
-    background: url('/assets/imgs/electric.jpeg');
+    background: url('../imgs/electric.jpeg');
     background-size: cover;
 }
 
 .pokemons .ground {
-    background: url('/assets/imgs/ground.jpeg');
+    background: url('../imgs/ground.jpeg');
     background-size: cover;
 }
 
 .pokemons .poison {
-    background: url('/assets/imgs/poison.jpeg');
+    background: url('../imgs/poison.jpeg');
     background-size: cover;
 }
 
 .pokemons .psychic {
-    background: url('/assets/imgs/psychic.jpeg');
+    background: url('../imgs/psychic.jpeg');
     background-size: cover;
 }
 
 .pokemons .fighting {
-    background: url('/assets/imgs/fighting.jpeg');
+    background: url('../imgs/fighting.jpeg');
     background-size: cover;
 }
 
 .pokemons .fairy {
-    background: url('/assets/imgs/fairy.jpeg');
+    background: url('../imgs/fairy.jpeg');
     background-size: cover;
 }
 
 .pokemons .rock {
-    background: url('/assets/imgs/rock.jpeg');
+    background: url('../imgs/rock.jpeg');
     background-size: cover;
 }
 
 .pokemons .ice {
-    background: url('/assets/imgs/ice.jpeg');
+    background: url('../imgs/ice.jpeg');
     background-size: cover;
 }
 
 .pokemons .dragon {
-    background: url('/assets/imgs/dragon.jpeg');
+    background: url('../imgs/dragon.jpeg');
     background-size: cover;
 }
 
 .pokemons .ghost {
-    background: url('/assets/imgs/ghost.jpeg');
+    background: url('../imgs/ghost.jpeg');
     background-size: cover;
 }
 
 .pokemons .dark {
-    background: url('/assets/imgs/dark.jpeg');
+    background: url('../imgs/dark.jpeg');
     background-size: cover;
 }
 
 .pokemons .steel {
-    background: url('/assets/imgs/steel.jpeg');
+    background: url('../imgs/steel.jpeg');
     background-size: cover;
 }
