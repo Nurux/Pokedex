@@ -1,0 +1,273 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dadee7;
+}
+
+.content {
+    padding: 1rem;
+    background-color: white;
+    height: 100%;
+    width: 100vh;
+}
+
+.content h1 {
+    margin: 0;
+    text-align: center;
+}
+
+
+.apresentation {
+    text-align: center;
+    width: auto;
+}
+
+.apresentation p {
+    font-size: 1rem;
+}
+
+.apresentation img {
+    width: 30rem;
+}
+
+
+.menu{
+    display: flex;
+    position:sticky;
+    top: 0;
+    width: 100vh;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.mobile_menu{
+    cursor: pointer;
+    background-color: #1E1F26;
+    height: 2.5rem;
+    display: none;
+}
+
+.mobile_menu div{
+    width: 2rem;
+    height: 0.15rem;
+    background-color: white;
+    margin: 0.5rem;
+}
+
+
+#perfil{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+}
+
+#perfil.darkmode{
+    border: 3px solid #47CF73;
+}
+
+#perfil.lightmode{
+    border: 3px solid blueviolet;
+}
+
+.avatar{
+    height: 7rem;
+    width: 6rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.avatar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.avatar h3{
+    margin: 0;
+}
+
+
+
+.load{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    width: 10rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.load:hover{
+    cursor: pointer;
+    background-color: #47CF73;
+    transition: 0.5s;
+}
+
+.btn_mode {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.btn_mode:hover{
+    background-color: #47CF73;
+    transition: 0.5s;
+}
+
+.lightmode{
+    background-color: #47CF73;
+    color: black;
+    cursor: pointer;
+}
+
+.lightmode:hover{
+    background-color: blueviolet;
+}
+
+.dark{
+    background-color: #131417;
+    color: white;
+}
+
+.dark_content {
+    background-color: #1E1F26;
+}
+
+.pagination {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 1rem;
+    margin: 3rem 1rem;
+    
+}
+
+.pagination.active {
+    transform: translateX(0);
+}
+
+
+@media screen and (min-width: 620px){
+    .content {
+        margin: 1rem auto;
+    }
+    .menu{
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .content {
+        max-width: 992px;
+        height: auto;
+        width: 700px;
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .content{
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .pagination {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        margin: 5rem 0.5rem;
+    }
+
+    .pagination.lightmode{
+        background: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+    
+    .pagination{
+        display: flex;
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 50vh;
+        background-color: #1E1F26;
+        border: 3px solid blueviolet;
+        border-radius: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(120%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .pagination button {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .pagination.lightmode {
+        border: 3px solid #47CF73;
+        background-color: #1E1F26;
+    }
+
+    .mobile_menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .pagination {
+       right: -21rem;
+      
+    }
+
+    .pagination.active{
+        transform: translateX(-40vh);
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .pagination{
+        width: 50vh;
+    }
+
+    .pagination.active{
+        transform: translateX(-50vh);
+    }
+}
+
+
+
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

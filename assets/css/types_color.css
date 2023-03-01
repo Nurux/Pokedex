@@ -1,0 +1,71 @@
+.pokemon .detail .types .grass{
+    background: linear-gradient(to right, rgb(31, 150, 31), rgb(53, 234, 53));
+}
+
+.pokemon .detail .types .poison{
+    background: linear-gradient(to right, rgb(87, 7, 87), rgb(209, 53, 209));
+}
+
+.pokemon .detail .types .fire{
+    background: linear-gradient(to right,rgb(255, 153, 0),  rgb(255, 68, 0));
+}
+
+.pokemon .detail .types .flying{
+    background: linear-gradient(to right, #dfe161, cyan);
+}
+
+.pokemon .detail .types .water{
+    background: linear-gradient(to right, rgb(0, 132, 255), rgb(0, 255, 255));
+}
+
+.pokemon .detail .types .normal{
+    background: linear-gradient(to right, rgb(105, 105, 105), rgb(146, 146, 146));
+}
+
+.pokemon .detail .types .electric{
+    background: linear-gradient(to right, rgb(255, 153, 0), rgb(227, 179, 4));
+}
+
+.pokemon .detail .types .bug{
+    background: linear-gradient(to right, rgb(26, 97, 26), rgb(85, 177, 85));
+}
+
+.pokemon .detail .types .ground{
+    background: linear-gradient(to right, rgb(125, 78, 23), rgb(165, 130, 42));
+}
+
+.pokemon .detail .types .psychic{
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(192, 4, 199));
+}
+
+.pokemon .detail .types .fighting{
+    background: linear-gradient(to right, rgb(145, 0, 0), rgb(255, 0, 0));
+}
+
+.pokemon .detail .types .fairy{
+    background: linear-gradient(to right,  pink, rgb(252, 192, 255));
+}
+
+.pokemon .detail .types .rock{
+    background: linear-gradient(to right, rgb(77, 74, 74), rgb(179, 172, 172));
+}
+
+.pokemon .detail .types .ice{
+    background: linear-gradient(to right, rgb(51, 210, 197), rgb(11, 254, 254));
+}
+
+.pokemon .detail .types .dragon{
+    background: linear-gradient(to right, rgb(11, 104, 196), rgb(167, 33, 0));
+}
+
+.pokemon .detail .types .ghost{
+    background: linear-gradient(to right, rgb(196, 11, 190), rgb(81, 0, 167));
+}
+
+.pokemon .detail .types .dark{
+    background: linear-gradient(to right, rgb(144, 73, 73), rgb(67, 40, 40));
+}
+
+.pokemon .detail .types .steel{
+    background: linear-gradient(to right, #B8B8D0, #4c4c5e);
+}
