@@ -1,20 +1,20 @@
 .pokemons .grass {
-    background: url('./assets/imgs/grass.jpg');
+    background: url('/imgs/grass.jpg');
     background-size: cover;
 }  
 
 .pokemons .bug {
-    background: url('./assets/imgs/bug.jpeg');
+    background: url('/imgs/bug.jpeg');
     background-size:auto;
 }
 
 .pokemons .fire {
-    background: url('./assets/imgs/fire.jpeg');
+    background: url('/imgs/fire.jpeg');
     background-size: cover;
 }
 
 .pokemons .water {
-    background: url('./assets/imgs/water.jpeg');
+    background: url('/imgs/water.jpeg');
     background-size: cover;
 }
 
